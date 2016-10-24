@@ -39,3 +39,12 @@ input[type="text"], input[type="email", textarea {
     padding: .25em;
     font-size: 2em;
 }
+
+div#fmain {
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
+div#narrow {
+    width: 20%;
+    margin: 0 auto 0 auto;
+}
