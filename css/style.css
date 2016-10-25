@@ -22,29 +22,31 @@ a:visited {
     color: aquamarine;
 }
 li {
-    margin: 5.75em;
+    margin: 1em;
 }
 ul {
     list-style-position: inside;
     list-style-type: square;
 }
-
-div#edsdiv p {
-    font-size: 10em;
+div#edsdiv, p {
+    font-size: 2em;
 }
 th, td {
     border: 1px solid black;
 }
-input[type="text"], input[type="email", textarea {
+
+/*input[type="text"], input[type="email", textarea {
     padding: .25em;
     font-size: 2em;
-}
-
+}*/
 div#fmain {
-    width: 20%;
-    margin: 0 auto 0 auto;
+    width: 40%;
+    float: left;
 }
 div#narrow {
-    width: 20%;
-    margin: 0 auto 0 auto;
+    width: 40%;
+    float: right;
+}
+div#no-wrap {
+    clear: both;
 }
