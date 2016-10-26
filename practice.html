@@ -4,10 +4,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div id="banner">
-    <h2>This is my practice page!</h2>
-</div>
-
 <div id="mydivid">
     <h3>some h3 text</h3>
     <h4>some h4 text</h4>
@@ -59,13 +55,32 @@
         <td colspan="2">Row 2 spanned!</td>
     </tr>
 </table>
-
+<label>
+    <fieldset>
+    <legend>First Group</legend>
+    <input type="text" name="surname" size="25" maxlength=""40">
+    <textarea name="message" rows=""4" cols="30"></textarea>
+    <textarea name="message" rows="8" cols="30"></textarea>
+    </fieldset>
+    <br><br>
+    <fieldset>
+    <legend>Second Group</legend>
+    <input type="text" name="surname" size="25" maxlength="40">
+    <br><br>
+    <label><input type="radio" name="binary" value="yes">yes</label>
+    <br>
+    <label><input type="radio" name="binary" value="no"> No</label>
+    <input type="submit" value="Send">
+    <br><br>
+    </fieldset>
+    <input type="checkbox" name="languages" id="lang1" value="java"><label for="lang1">java</label>
+    <br>
+    <input type="checkbox" name="languages" id="lang2" value="c++"><label for="lang2">c++</label>
 <div id="fmain">
     <p>Some really good text hear!</p>
 </div>
-
-    <div id="narrow">
-        <p>In this case, the div has an id that connects it to CSS styling. Alternatively, a div can have a class. It can also have neither an id nor a class, but that's unusual, since the point of a div is normally to create a container that has some particular styling.</p>
-    </div>
+<div id="narrow">
+    <p>In this case, the div has an id that connects it to CSS styling. Alternatively, a div can have a class. It can also have neither an id nor a class, but that's unusual, since the point of a div is normally to create a container that has some particular styling.</p>
+</div>
 </body>
 </html>

@@ -22,39 +22,31 @@ a:visited {
     color: aquamarine;
 }
 li {
-    margin: 5.75em;
+    margin: 1em;
 }
 ul {
     list-style-position: inside;
     list-style-type: square;
 }
-
-div#edsdiv p {
-    font-size: 10em;
+div#edsdiv, p {
+    font-size: 2em;
 }
 th, td {
     border: 1px solid black;
 }
+
+/*input[type="text"], input[type="email", textarea {
+    padding: .25em;
+    font-size: 2em;
+}*/
 div#fmain {
+    width: 40%;
     float: left;
-    width: 20%;
-    margin: 0 auto 0 auto;
 }
 div#narrow {
+    width: 40%;
     float: right;
-    width: 20%;
-    margin: 0 auto 0 auto;
 }
-div#banner {
-    postion: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ccff33;
-}
-div#banner h2 {
-    margin-left: 30%;
-    font-family: Arial, sans-serif;
-    color: blue;
-    font-weight: 900;
-    font-size: 2em;
+div#no-wrap {
+    clear: both;
 }
