@@ -36,10 +36,12 @@ th, td {
     border: 1px solid black;
 }
 div#fmain {
+    float: left;
     width: 20%;
     margin: 0 auto 0 auto;
 }
 div#narrow {
+    float: right;
     width: 20%;
     margin: 0 auto 0 auto;
 }
