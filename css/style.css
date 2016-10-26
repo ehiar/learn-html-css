@@ -34,11 +34,6 @@ div#edsdiv, p {
 th, td {
     border: 1px solid black;
 }
-
-/*input[type="text"], input[type="email", textarea {
-    padding: .25em;
-    font-size: 2em;
-}*/
 div#fmain {
     width: 40%;
     float: left;
