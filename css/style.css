@@ -35,11 +35,6 @@ div#edsdiv p {
 th, td {
     border: 1px solid black;
 }
-input[type="text"], input[type="email", textarea {
-    padding: .25em;
-    font-size: 2em;
-}
-
 div#fmain {
     width: 20%;
     margin: 0 auto 0 auto;
@@ -47,4 +42,17 @@ div#fmain {
 div#narrow {
     width: 20%;
     margin: 0 auto 0 auto;
+}
+div#banner {
+    postion: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ccff33;
+}
+div#banner h2 {
+    margin-left: 30%;
+    font-family: Arial, sans-serif;
+    color: blue;
+    font-weight: 900;
+    font-size: 2em;
 }
