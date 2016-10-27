@@ -10,52 +10,5 @@ div#header h2 {
     font-weight: 900;
     font-size: 4em;
     color: darksalmon;
-    margin-left: 25%;
-}
-div#mydivid {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-img.owns-a-line {
-    display: block;
-}
-img.mvright {
-    display: block;
-    margin-left: 15em;
-}
-.shocking {
-    color: red;
-}
-a:hover {
-    color: orange;
-}
-a {
-    color: gray;
-}
-a:visited {
-    color: aquamarine;
-}
-li {
-    margin: 1em;
-}
-ul {
-    list-style-position: inside;
-    list-style-type: square;
-}
-div#edsdiv, p {
-    font-size: 2em;
-}
-th, td {
-    border: 1px solid black;
-}
-div#fmain {
-    width: 40%;
-    float: left;
-}
-div#narrow {
-    width: 40%;
-    float: right;
-}
-div#no-wrap {
-    clear: both;
+    margin-left: 2%;
 }
